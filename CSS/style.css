@@ -81,6 +81,7 @@
     align-items: center;
     padding: 0px 30px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
     margin-top: 10px;
     background-color:#ecf0f3;
     color: white;
@@ -110,7 +111,7 @@
     padding-top: 35px;
     padding-bottom: 30px;
     color: #ecf0f3;
-    background-color: #222;
+    background-color:  #0a5a97;
     border-top: 0;
   }
   .panel-footer div.row {
@@ -140,6 +141,11 @@
     #mobile-menu-btn {
       display: block;
     }
+nav {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
     nav a {
       display: none;
     }
