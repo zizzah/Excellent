@@ -164,6 +164,9 @@
         height: 40vw;
         margin-top: 10px;
     }
+    .sub{
+      margin-bottom: 10px;
+    }
     #div1,#div2{
         border-radius: 0px;
         width: 370px;
