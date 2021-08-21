@@ -15,7 +15,7 @@
   }
 
   body{
-      background-color: black;
+      background-color: #ecf0f3;
   }
   nav .links {
     display: flex;
@@ -47,6 +47,16 @@
       background-color: #ecf0f3;
       box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
   }
+#pilee{
+  position: relative;
+}
+
+  #pil{
+    position: absolute;
+    left: 10px;
+    color: rgb(255, 0, 64);
+  }
+  
 
   .containerr div{
       margin: auto;
@@ -75,7 +85,7 @@
       
   }
 
-  .sub{
+  #home-tiles{
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -83,18 +93,17 @@
     flex-wrap: wrap;
     margin-bottom: 15px;
     margin-top: 10px;
-    background-color:#ecf0f3;
+    background-color:#ECF0F3;
     color: white;
     border-radius: 20px;
     box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
   }
- .sub div{
-     width: 30%;
-     height: 20vw;
+  #home-tiles div{
      
-     border: 1px solid black;
-     background-color: #0a5a97;
- }
+    background-color: #0a5a97;
+
+     
+ } 
 
   .mobile-menu {
     color: white;
@@ -105,6 +114,39 @@
     width: 70vw;
     background-color: blue;
   }
+
+  
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-pile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('../images/pipe.jpeg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/gold.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 
   .panel-footer {
     margin-top: 30px;
@@ -164,13 +206,13 @@ nav {
     
     
     }
-    .container div, .sub div{
+    .container div, #home-tiles div{
         margin: auto;
         width: 90vw;
         height: 40vw;
         margin-top: 10px;
     }
-    .sub{
+    #home-tiles{
       margin-bottom: 10px;
     }
     #div1,#div2{
