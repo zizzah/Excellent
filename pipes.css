@@ -135,10 +135,6 @@
   background: url('../images/gold.jpg') no-repeat;
   background-position: center;
 }
-#map-tile{
-  background: url('../images/sink.jpg') no-repeat;
-  background-position: center;
-}
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
