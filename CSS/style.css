@@ -1,238 +1,242 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    transition: 0.5 s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 30px;
-    background-color: #0a5a97;
-    color: white;
-    height: 150px;
-  }
+  padding: 0px;
+  margin: 0px;
+  transition: 0.5 s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  background-color: #0a5a97;
+  color: white;
+  height: 150px;
+}
 
-  body{
-      background-color: #ecf0f3;
-  }
-  nav .links {
-    display: flex;
-  }
-  .links a {
-    padding: 10px;
-  }
-  .logo a{
-     color: #fff;
-     margin-left: 40px;
-     height: 200px;
-     text-decoration: none; 
-  }
-  #mobile-menu-btn {
+body{
+    background-color: #ecf0f3;
+}
+nav .links {
+  display: flex;
+}
+.links a {
+  padding: 10px;
+}
+.logo a{
+   color: #fff;
+   margin-left: 40px;
+   height: 200px;
+   text-decoration: none; 
+}
+#mobile-menu-btn {
+  display: none;
+}
+
+#tile{
     display: none;
+}
+.containerr{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+    border-radius: 20px;
+    background-color: #ecf0f3;
+    box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
+}
+#pilee{
+position: relative;
+}
+
+#pil{
+  position: absolute;
+  left: 10px;
+  color: rgb(255, 0, 64);
+}
+
+
+.containerr div{
+    margin: auto;
+    width: 370px;
+    height: 25vw;
+    margin-top: 15px;
+
+}
+#div1{
+    background-color: #0a5a97;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
+    width: 60%;
+}
+
+#div2{
+    background-color: #0a5a97;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
+}
+
+#div3{
+    background-color: darkblue;
+    
+}
+
+#home-tiles{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 0px 30px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background-color:#ECF0F3;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
+}
+#home-tiles div{
+   
+  background-color: #0a5a97;
+
+   
+} 
+
+.mobile-menu {
+  color: white;
+  display: none;
+  position: absolute;
+  right: 0;
+  height: 60vh;
+  width: 70vw;
+  background-color: blue;
+}
+
+
+#menu-tile, #specials-tile, #map-tile {
+height: 250px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #3F0C1F;
+overflow: hidden;
+}
+#menu-pile:hover, #specials-tile:hover, #map-tile:hover {
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+background: url('../images/pipe.jpeg') no-repeat;
+background-position: center;
+}
+#specials-tile {
+background: url('../images/gold.jpg') no-repeat;
+background-position: center;
+}
+#map-tile{
+background: url('../images/sink.jpg') no-repeat;
+background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+font-size: 1.6em;
+text-transform: uppercase;
+background-color: #000;
+color: #fff;
+opacity: .8;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  color: #ecf0f3;
+  background-color:  #0a5a97;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+
+
+/* END FOOTER */
+
+
+@media (max-width: 600px) {
+  #mobile-menu-btn {
+    display: block;
+  }
+nav {
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+  nav a {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vw;
+    border-radius: 10px;
+    background-color: rgb(120, 164, 231);
+    align-items: center;
   }
 
   #tile{
-      display: none;
-  }
-  .containerr{
-      margin-top: 10px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      justify-items: center;
-      
-      border-radius: 20px;
-      background-color: #ecf0f3;
-      box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
-  }
-#pilee{
-  position: relative;
-}
-
-  #pil{
-    position: absolute;
-    left: 10px;
-    color: rgb(255, 0, 64);
-  }
-  
-
-  .containerr div{
-      margin: auto;
-      width: 370px;
-      height: 25vw;
-      margin-top: 15px;
-
-  }
-  #div1{
-      background-color: #0a5a97;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
-      width: 60%;
-  }
-
-  #div2{
-      background-color: #0a5a97;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
-  }
-  
-  #div3{
-      background-color: darkblue;
-      
-  }
-
-  #home-tiles{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding: 0px 30px;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    background-color:#ECF0F3;
-    color: white;
-    border-radius: 20px;
-    box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
-  }
-  #home-tiles div{
-     
-    background-color: #0a5a97;
-
-     
- } 
-
-  .mobile-menu {
-    color: white;
-    display: none;
-    position: absolute;
-    right: 0;
-    height: 60vh;
-    width: 70vw;
-    background-color: blue;
-  }
-
-  
-#menu-tile, #specials-tile, #map-tile {
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#menu-pile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-#menu-tile {
-  background: url('../images/pipe.jpeg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/gold.jpg') no-repeat;
-  background-position: center;
-}
-#map-tile{
-  background: url('../images/sink.jpg') no-repeat;
-  background-position: center;
-}
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
-
-  .panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    color: #ecf0f3;
-    background-color:  #0a5a97;
-    border-top: 0;
-  }
-  .panel-footer div.row {
-    margin-bottom: 35px;
-  }
-  #hours, #address {
-    line-height: 2;
-  }
-  #hours > span, #address > span {
-    font-size: 1.3em;
-  }
-  #address p {
-    color: #557c3e;
-    font-size: .8em;
-    line-height: 1.8;
-  }
-  #testimonials {
-    font-style: italic;
-  }
-  #testimonials p:nth-child(2) {
-    margin-top: 25px;
-  }
-
-
-  
-  /* END FOOTER */
-  
-
-  @media (max-width: 600px) {
-    #mobile-menu-btn {
       display: block;
-    }
-nav {
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-    nav a {
-      display: none;
-    }
-    .mobile-menu {
-      display: none;
-      flex-direction: column;
-      justify-content: space-around;
-      height: 30vw;
-      border-radius: 10px;
-      background-color: rgb(120, 164, 231);
-      align-items: center;
-    }
-
-    #tile{
-        display: block;
-    
-    
-    }
-    .container div, #home-tiles div{
-        margin: auto;
-        width: 90vw;
-        height: 40vw;
-        margin-top: 10px;
-    }
-    #home-tiles{
-      margin-bottom: 10px;
-    }
-    #div1,#div2{
-        border-radius: 0px;
-        width: 370px;
-        height: 40vw;
-        width: 90vw;
-        
-    }
-    #tile{
-        display: block;
-    
-    
-    }
-    
+  
+  
   }
+  .container div, #home-tiles div{
+      margin: auto;
+      width: 90vw;
+      height: 40vw;
+      margin-top: 10px;
+  }
+  #home-tiles{
+    margin-bottom: 10px;
+  }
+  #div1,#div2{
+      border-radius: 0px;
+      width: 370px;
+      height: 40vw;
+      width: 90%;
+      
+  }
+
+  img{
+    width: 80vw;
+  }
+  #tile{
+      display: block;
+  
+  
+  }
+  
+}

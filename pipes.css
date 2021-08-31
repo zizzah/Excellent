@@ -13,7 +13,12 @@
     color: white;
     height: 150px;
   }
-
+.row{
+  display: flex;
+  justify-content:space-between;
+  justify-items:flex-start;
+  flex-wrap: wrap;
+}
   body{
       background-color: #ecf0f3;
   }
@@ -127,6 +132,11 @@
 #menu-pile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+#map-tile{
+  background: url("//images/sink.jpg") no-repeat;
+  background-position: center;
+}
 #menu-tile {
   background: url('../images/pipe.jpeg') no-repeat;
   background-position: center;
@@ -135,6 +145,7 @@
   background: url('../images/gold.jpg') no-repeat;
   background-position: center;
 }
+
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
@@ -229,6 +240,10 @@ nav {
         display: block;
     
     
+    }
+
+    #div1{
+      display: none;
     }
     
   }
