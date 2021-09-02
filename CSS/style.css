@@ -198,6 +198,7 @@ margin-bottom: 10px;
   nav a {
     display: none;
   }
+
   .mobile-menu {
     display: none;
     flex-direction: column;
