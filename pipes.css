@@ -783,8 +783,9 @@ nav {
     .container div, #home-tiles div{
         margin: auto;
         width: 90vw;
-        height: 40vw;
+        height: 60vw;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     #home-tiles{
       margin-bottom: 10px;

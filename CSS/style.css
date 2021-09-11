@@ -312,5 +312,9 @@ height: 150px;
   
   
   }
+
+  .row div{
+    height: 60px;
+  }
   
 }
