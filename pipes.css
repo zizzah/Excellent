@@ -696,7 +696,7 @@ img {vertical-align: middle;}
 }
 #specials-tile {
   background: url('images/gold.jpg') no-repeat;
-  background-position: center;
+  background-position: center; 
 }
 
 #shower{
