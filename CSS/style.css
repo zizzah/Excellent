@@ -117,7 +117,7 @@ position: relative;
 }
 
 
-#menu-tile, #specials-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile ,#shower {
 height: 250px;
 width: 100%;
 margin-bottom: 15px;
@@ -140,7 +140,12 @@ background-position: center;
 background: url('images/bath1.jpg') no-repeat;
 background-position: center;
 }
-#menu-tile span, #specials-tile span, #map-tile span {
+
+#shower{
+  background: url('images/bristan-1901--luxury-bath-showr.jpg') no-repeat;
+  background-position: center;
+  }
+#menu-tile span, #specials-tile span, #map-tile span, #shower span {
 position: absolute;
 bottom: 0;
 right: 0;
@@ -268,10 +273,25 @@ margin-bottom: 10px;
   }
   .container div, #home-tiles div{
       margin: auto;
-      width: 90vw;
-      height: 40vw;
-      margin-top: 10px;
+      width: 95vw;
+      height: 50vw;
+      margin-top: 15px;
+      margin-bottom: 15px;
   }
+
+  .container div img {
+width: 330px;
+height: 150px;
+  }
+
+  
+  .container div :hover {
+   
+    background-color: #000;
+    box-shadow: 5px #3F0C1F;
+
+      }
+
   #home-tiles{
     margin-bottom: 10px;
   }

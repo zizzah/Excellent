@@ -687,17 +687,22 @@ img {vertical-align: middle;}
 }
 
 #map-tile{
-  background: url("images/sink.jpg") no-repeat;
+  background: url("images/bath5.jpg") no-repeat;
   background-position: center;
 }
 #menu-tile {
-  background: url('images/pipe.jpeg') no-repeat;
+  background: url('images/sink.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
   background: url('images/gold.jpg') no-repeat;
   background-position: center;
 }
+
+#shower{
+  background: url('images/bristan-1901--luxury-bath-showr.jpg') no-repeat;
+  background-position: center;
+  }
 
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
