@@ -688,11 +688,11 @@ img {vertical-align: middle;}
 
 
 #menu-tile {
-  background: url('../images/pipe.jpeg') no-repeat;
+  background: url('/images/pipe.jpeg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/gold.jpg') no-repeat;
+  background: url('/images/gold.jpg') no-repeat;
   background-position: center;
 }
 
