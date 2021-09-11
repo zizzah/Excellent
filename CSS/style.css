@@ -129,15 +129,15 @@ overflow: hidden;
 box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-background: url('/images/pipe.jpeg') no-repeat;
+background: url('images/pipe.jpeg') no-repeat;
 background-position: center;
 }
 #specials-tile {
-background: url('/images/gold.jpg') no-repeat;
+background: url('images/gold.jpg') no-repeat;
 background-position: center;
 }
 #map-tile{
-background: url('/images/bath1.jpg') no-repeat;
+background: url('images/bath1.jpg') no-repeat;
 background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {

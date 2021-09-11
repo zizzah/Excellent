@@ -686,13 +686,16 @@ img {vertical-align: middle;}
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-
+#map-tile{
+  background: url("images/sink.jpg") no-repeat;
+  background-position: center;
+}
 #menu-tile {
-  background: url('/images/pipe.jpeg') no-repeat;
+  background: url('images/pipe.jpeg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('/images/gold.jpg') no-repeat;
+  background: url('images/gold.jpg') no-repeat;
   background-position: center;
 }
 
@@ -733,6 +736,7 @@ img {vertical-align: middle;}
   }
   #testimonials {
     font-style: italic;
+    background-color: #0a5a97;
   }
   #testimonials p:nth-child(2) {
     margin-top: 25px;
