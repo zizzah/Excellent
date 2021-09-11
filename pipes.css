@@ -668,10 +668,8 @@ img {vertical-align: middle;}
   .mobile-menu {
     color: white;
     display: none;
-    position: absolute;
-    right: 0;
     height: 60vh;
-    width: 70vw;
+    width: 90vw;
     background-color: blue;
   }
 
@@ -765,6 +763,7 @@ nav {
       flex-direction: column;
       justify-content: space-around;
       height: 30vw;
+      margin: 10px;
       border-radius: 10px;
       background-color: rgb(120, 164, 231);
       align-items: center;
@@ -812,7 +811,7 @@ nav {
     }
 
     #div1{
-      display: none;
+      
     }
     
   }

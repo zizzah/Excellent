@@ -14,6 +14,30 @@ mobileMenuBtn.addEventListener('click', () =>{
 
 
 
+var x = document.getElementById("mobileMenu");
+var y = document.getElementById("menu");
+ x.addEventListener('click', ()=>{
+   if(y.style.display==='none'){
+     y.style.display= 'block';
+     x.innerHTML= 'close'
+   }
+   else{
+     y.style.display = 'none'
+     x.innerHTML= 'menu';
+   }
+ })
+
+
+function myFunction() {
+  var x = document.getElementById("mobileMenu");
+  var y = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 
 var slideIndex = 1;
 showSlides(slideIndex);

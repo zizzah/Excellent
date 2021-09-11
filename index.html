@@ -18,54 +18,64 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="pipes.css">
 
 </head>
 <body>
-
 
 <!-- Large Screen Navigation Bar -->
 <nav>
   <div class="logo">
       
-
    <a  href="index.html"><img src="images/exel.jpeg" style="width: 150px; height: 150px;" alt=""></a>
-   <div id="tile" > <button class="btn btn-primary" onclick="index.html">EXCELLENT</button>
-     </div>
+   <div id="tile" > <button class="btn btn-primary" onclick="window.location.href='index.html'">EXCELLENT</button>
+   </div>
+   
 
   </div>
   <div class="links">
-    <a href="pipes.html">	<span class=""></span> PRODUCTS</a>
-    <a>ABOUT US</a>
-    <a>PROJECTS</a>
-    <a href="other.html">SERVICES</a>
-    <a>BLOGS AND NEWS</a>
-    <a>CONTACT US</a>
-    <a class="btn" href="tel:+234-802-633-0620">
+    <a href="index.html">  <span class="glyphicon glyphicon-home"></span> HOME</a>
+    <a>	<span class=""></span> Signup</a>
+    <a>About Us</a>
+    <a>Contact</a>
+    <a class="btn" href="tel:++234 806-941-8289">
       <span class="glyphicon glyphicon-earphone"></span>
-      +234-802-633-0620
+      +234 8069418289
       </a>
-    <strong id="mobile-menu-btn">Menu</strong>
+   
+    <strong id="mobile-menu-btn">Menu
+      
+    </strong>
   </div>
 </nav>
 
+  
+  <!-- Small Screen Navigation Bar -->
+  <div class="mobile-menu">
+    <a>  <span class="glyphicon glyphicon-home"></span> Home</a>
+    <a><span class="glyphicon glyphicon-products"></span>Products
+    </a>
+    <a> <span class="glyphicon glyphicon-about-us"></span> About Us</a>
+    <a>  <span class="glyphicon glyphicon-contact"></span> Contact</a>
+  </div>
 
 <!-- Small Screen Navigation Bar -->
-<div class="mobile-menu">
-  <a>  <span class="glyphicon glyphicon-user"></span> User Login</a>
-  <a><span class="">Signup</span>
-  </a>
-  <a>About Us</a>
-  <a>Contact</a>
-</div>
+<!-- Simulate a smartphone / tablet look -->
+
+
+  <!-- Top Navigation Menu -->
+
+
+ 
 
 
 <div class="containerr">
     <div class="col-3 col-4 col-6" id="div1">
       <a href="">
-        <img src="images/handwash.jpeg" alt="">
+        <img src="images/handwash.jpeg" alt="" style="color: #fff; font-size: 1.;">DOUBBLE BOW SINK
       
       </a>
-     american standard hadnd warehoues
+     
     </div>
            
     <div class="col-3 col-4 col-6" id="div2">
@@ -89,7 +99,7 @@
     <a href="other.html"><div id="specials-tile"><span>TOILET SEAT</span></div></a>
   </div>
   <div class="col-md-4 col-sm-12 col-xs-12">
-    <a href="seat.html" target="_blank">
+    <a href="bathTubs.html" target="_blank">
       <div id="map-tile">
         <span>BATH TUBS</span>
       </div>
@@ -127,6 +137,22 @@
   </footer>
 
 <script src="CSS/Javascript/main.js">
+
+var x = document.getElementById("mob");
+var y = document.getElementById("menuu");
+ x.addEventListener('click', ()=>{
+
+     console.log("hello");
+     
+   if(y.style.display==='none'){
+     y.style.display= 'block';
+   //  x.innerHTML= 'close'
+   }
+   else{
+     y.style.display = 'none'
+  //   x.innerHTML= 'menu';
+   }
+ })
 
 </script>
 

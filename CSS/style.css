@@ -13,6 +13,9 @@ nav {
   color: white;
   height: 150px;
 }
+.mobile-container{
+  visibility: hidden;
+}
 
 body{
     background-color: #ecf0f3;
@@ -42,7 +45,6 @@ nav .links {
     justify-content: center;
     flex-wrap: wrap;
     justify-items: center;
-    
     border-radius: 20px;
     background-color: #ecf0f3;
     box-shadow: 14px 14px 20px #cdced1,-14px -14px 20px white;
@@ -108,8 +110,7 @@ position: relative;
 .mobile-menu {
   color: white;
   display: none;
-  position: absolute;
-  right: 0;
+  
   height: 60vh;
   width: 70vw;
   background-color: blue;
@@ -136,7 +137,7 @@ background: url('../images/gold.jpg') no-repeat;
 background-position: center;
 }
 #map-tile{
-background: url('../images/sink.jpg') no-repeat;
+background: url('../images/bath1.jpg') no-repeat;
 background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -183,10 +184,58 @@ opacity: .8;
 
 
 
+
+
 /* END FOOTER */
 
 
+
+
+
 @media (max-width: 600px) {
+
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #0a5a97;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:#fff ;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
   #mobile-menu-btn {
     display: block;
   }
@@ -195,15 +244,18 @@ border-radius: 10px;
 margin-bottom: 10px;
 }
 
-  nav a {
+  nav  {
     display: none;
   }
 
+
+  
   .mobile-menu {
     display: none;
     flex-direction: column;
     justify-content: space-around;
     height: 30vw;
+    margin: 10px;
     border-radius: 10px;
     background-color: rgb(120, 164, 231);
     align-items: center;
