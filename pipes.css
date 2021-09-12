@@ -127,7 +127,7 @@ body {
   text-shadow: #951C49;
 }
 
-#menu-tile, #specials-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile,#taps {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -135,22 +135,28 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover ,#taps:hover {
+  box-shadow: 0 1px 5px 1px #1a0fb8;
 }
 #menu-tile {
   background: url('../images/resized-image-Promo\ \(3\).jpeg') no-repeat;
+  background-position: center;
+}
+
+#taps {
+  background: url('images/taps/basin-mixer-tap.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
   background: url('../images/wed.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #specials-tile span, #map-tile span {
+#menu-tile span, #specials-tile span, #map-tile span,#tap span {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
+  text-transform: uppercase;
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -168,6 +174,11 @@ body {
   width: 250px;
   height: 300px;
   margin:   15px;
+}
+#subhead{
+  text-align: center;
+  color: #0a5a97;
+
 }
 .category-tile span {
   position: absolute;
@@ -630,7 +641,7 @@ img {vertical-align: middle;}
       padding: 10px;
       border-radius: 10px;
       box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
-      width: 60%;
+      width: 95%;
   }
 
   #div2{

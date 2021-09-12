@@ -72,7 +72,7 @@ position: relative;
     padding: 10px;
     border-radius: 10px;
     box-shadow: inset 6px 6px #cbced1, inset --6px -6px 6px rgb(136, 58, 58);
-    width: 60%;
+    width: 90%;
 }
 
 #div2{
@@ -117,7 +117,7 @@ position: relative;
 }
 
 
-#menu-tile, #specials-tile, #map-tile ,#shower {
+#menu-tile, #specials-tile, #map-tile ,#shower, #taps {
 height: 250px;
 width: 100%;
 margin-bottom: 15px;
@@ -125,7 +125,7 @@ position: relative;
 border: 2px solid #3F0C1F;
 overflow: hidden;
 }
-#menu-pile:hover, #specials-tile:hover, #map-tile:hover {
+#menu-pile:hover, #specials-tile:hover, #map-tile:hover, #taps:hover {
 box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
@@ -145,7 +145,7 @@ background-position: center;
   background: url('images/bristan-1901--luxury-bath-showr.jpg') no-repeat;
   background-position: center;
   }
-#menu-tile span, #specials-tile span, #map-tile span, #shower span {
+#menu-tile span, #specials-tile span, #map-tile span, #shower span , #taps span{
 position: absolute;
 bottom: 0;
 right: 0;
