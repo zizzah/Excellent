@@ -45,13 +45,13 @@
                   
                   <ul class="menu">
                     <li class="one">
-                        <a   href="" class="parent">
+                        <button   id="contact" class="parent">
                       <span>CONTACT US</span>
   
   
-                        </a>
+                        </button>
 
-                        <section>
+                        <section id="sec">
                             <h2>W3docs</h2>
                             <b> 
                             Hover the element displayed below to see the div element. 
@@ -85,12 +85,10 @@
       </div>
 </body>
  <script>
-         let ages= prompt("your age ");
-
-     $('#blah').hover(function() {
-  $(this).fadeTo(1, 1);
-}, function() {
-  $(this).fadeTo(1, 0);
-});
+   document.getElementById('contact').onmouseleave= function(){
+     console.log('hello world');
+     document.getElementById('sec').style.display="block"
+   }
+  
  </script>
 </html>

@@ -15,6 +15,8 @@ body {
   border: 0;
 }
 
+
+
 #logo-img {
   background: url('../images/lok.jpeg') no-repeat;
   width: 150px;
@@ -768,6 +770,7 @@ img {vertical-align: middle;}
       display: block;
     }
 nav {
+  margin-top: 20px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -807,6 +810,10 @@ nav {
         height: 40vw;
         width: 90vw;
         
+    }
+
+    h2{
+      color: #1e0fee;
     }
 
     .row{
