@@ -817,7 +817,7 @@ img {vertical-align: middle;}
   }
 
   
-#menu-tile, #specials-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile,#pipes {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -825,7 +825,7 @@ img {vertical-align: middle;}
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-pile:hover, #specials-tile:hover, #map-tile:hover {
+#menu-pile:hover, #specials-tile:hover, #map-tile:hover,#pipes:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -842,12 +842,17 @@ img {vertical-align: middle;}
   background-position: center; 
 }
 
+#pipes {
+  background: url('images/pipes/all\ sizes\ of\ plumbing\ pipes.jpg') no-repeat;
+  background-position: center; 
+}
+
 #shower{
   background: url('images/bristan-1901--luxury-bath-showr.jpg') no-repeat;
   background-position: center;
   }
 
-#menu-tile span, #specials-tile span, #map-tile span {
+#menu-tile span, #specials-tile span, #map-tile span,#pipes span {
   position: absolute;
   bottom: 0;
   right: 0;
