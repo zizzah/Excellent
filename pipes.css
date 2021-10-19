@@ -815,6 +815,9 @@ nav {
   height: 300px;
   margin-top: 20px;
 }
+.container  img{
+  height: fit-content;
+}
 
     nav a {
       display: none;
