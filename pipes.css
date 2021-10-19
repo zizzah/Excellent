@@ -931,7 +931,7 @@ nav {
   .dot {
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 15px 2px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
