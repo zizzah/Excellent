@@ -118,8 +118,13 @@ body {
 }
 /* END FOOTER */
 .container{
-  background-color: #1a0fb8;
+  background-color: #0A5A97;
   margin-top: 10px;
+}
+
+.container img{
+  width: 400px;
+  height: 400px;
 }
 
 
